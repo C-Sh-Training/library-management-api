@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#_Training\\library-management-api\\BookManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|d:\\c#_training\\library-management-api\\bookmanagement\\bookmanagement\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|d:\\c#_training\\library-management-api\\bookmanagement\\bookmanagement\\domains\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\domains\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|d:\\c#_training\\library-management-api\\bookmanagement\\bookmanagement\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|d:\\c#_training\\library-management-api\\bookmanagement\\bookmanagement\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|d:\\c#_training\\library-management-api\\bookmanagement\\bookmanagement\\dbcontext\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\dbcontext\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|d:\\c#_training\\library-management-api\\bookmanagement\\bookmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7570A6F5-EA2C-4047-A067-21F0B0205A28}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "BookManagement\\Entities\\Book.cs",
+              "ToolTip": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Entities\\Book.cs",
+              "RelativeToolTip": "BookManagement\\Entities\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:48:18.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Domains\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "BookManagement\\Domains\\IBookRepository.cs",
+              "ToolTip": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Domains\\IBookRepository.cs",
+              "RelativeToolTip": "BookManagement\\Domains\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:07:18.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookList.cs",
+              "DocumentMoniker": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\DbContext\\BookList.cs",
+              "RelativeDocumentMoniker": "BookManagement\\DbContext\\BookList.cs",
+              "ToolTip": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\DbContext\\BookList.cs",
+              "RelativeToolTip": "BookManagement\\DbContext\\BookList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:07:15.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "BookManagement\\Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "BookManagement\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:46:42.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Program.cs",
+              "RelativeDocumentMoniker": "BookManagement\\Program.cs",
+              "ToolTip": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Program.cs",
+              "RelativeToolTip": "BookManagement\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:09:08.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookManagement\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\C#_Training\\library-management-api\\BookManagement\\BookManagement\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookManagement\\Controllers\\BookController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:49:53.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
