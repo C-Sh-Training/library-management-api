@@ -1,12 +1,11 @@
-﻿using BookManagement.Entities;
+﻿using BookManagement.DbContext.Entities;
 
-namespace BookManagement.Domains
+namespace BookManagement.Repositories
 {
     public interface IBookRepository
     {
-        public List<Book> GetAllBook();
 
-        List<Book> searchBookByTitle(string title);
+        List<Book> searchBookByTitle(string? title);
 
         Book createBook(Book book);
 

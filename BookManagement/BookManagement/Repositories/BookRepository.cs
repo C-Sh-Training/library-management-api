@@ -1,6 +1,5 @@
 ﻿using BookManagement.DbContext;
-using BookManagement.Domains;
-using BookManagement.Entities;
+using BookManagement.DbContext.Entities;
 using Microsoft.AspNetCore.Http.HttpResults;
 using System.Linq;
 
@@ -47,12 +46,7 @@ namespace BookManagement.Repositories
             return true;
         }
 
-        public List<Book> GetAllBook()
-        {
-            return BookList.Books.Select(b => b).OrderBy(b => b.Id).ToList();
-        }
-
-        public List<Book> searchBookByTitle(string title)
+        public List<Book> searchBookByTitle(string? title)
         {
 
             var allBooks = BookList.Books.ToList();

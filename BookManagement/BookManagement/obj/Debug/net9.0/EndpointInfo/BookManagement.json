@@ -2,23 +2,11 @@
   "openapi": "3.0.4",
   "info": {
     "title": "My API",
-    "description": "This is a sample API for .NET 9",
+    "description": "ThangLQ13 red dead",
     "version": "v1"
   },
   "paths": {
-    "/api/Book/get-all": {
-      "get": {
-        "tags": [
-          "Book"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Book/search-book": {
+    "/api/books/get-book": {
       "get": {
         "tags": [
           "Book"
@@ -39,7 +27,7 @@
         }
       }
     },
-    "/api/Book/create-book": {
+    "/api/books": {
       "post": {
         "tags": [
           "Book"
@@ -68,9 +56,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Book/update-book": {
+      },
       "put": {
         "tags": [
           "Book"
@@ -109,9 +95,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Book/delete-book": {
+      },
       "delete": {
         "tags": [
           "Book"

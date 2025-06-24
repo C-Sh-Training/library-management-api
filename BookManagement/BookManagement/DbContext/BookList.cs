@@ -1,4 +1,4 @@
-﻿using BookManagement.Entities;
+﻿using BookManagement.DbContext.Entities;
 
 namespace BookManagement.DbContext
 {

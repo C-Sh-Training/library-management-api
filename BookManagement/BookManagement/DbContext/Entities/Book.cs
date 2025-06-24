@@ -1,4 +1,4 @@
-﻿namespace BookManagement.Entities
+﻿namespace BookManagement.DbContext.Entities
 {
     public class Book
     {

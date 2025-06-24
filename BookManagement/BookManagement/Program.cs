@@ -1,5 +1,5 @@
-﻿using BookManagement.Domains;
-using BookManagement.Repositories;
+﻿using BookManagement.Repositories;
+using BookManagement.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -16,12 +16,13 @@ builder.Services.AddSwaggerGen(options =>
     {
         Title = "My API",
         Version = "v1",
-        Description = "This is a sample API for .NET 9"
+        Description = "ThangLQ13 red dead"
     });
 });
 
 // 👇 Register your repository here
 builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IBookService, BookService>();
 
 var app = builder.Build();
 
