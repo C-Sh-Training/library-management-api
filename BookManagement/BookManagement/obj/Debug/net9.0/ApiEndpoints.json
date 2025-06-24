@@ -2,7 +2,7 @@
   {
     "ContainingType": "BookManagement.Controllers.BookController",
     "Method": "createBook",
-    "RelativePath": "api/Book/create-book",
+    "RelativePath": "api/books",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -17,8 +17,29 @@
   },
   {
     "ContainingType": "BookManagement.Controllers.BookController",
+    "Method": "updateBook",
+    "RelativePath": "api/books",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateBook",
+        "Type": "BookManagement.Entities.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManagement.Controllers.BookController",
     "Method": "deleteBook",
-    "RelativePath": "api/Book/delete-book",
+    "RelativePath": "api/books",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -33,18 +54,8 @@
   },
   {
     "ContainingType": "BookManagement.Controllers.BookController",
-    "Method": "getAllBook",
-    "RelativePath": "api/Book/get-all",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BookManagement.Controllers.BookController",
     "Method": "searchBookByTitle",
-    "RelativePath": "api/Book/search-book",
+    "RelativePath": "api/books/get-book",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -53,27 +64,6 @@
         "Name": "title",
         "Type": "System.String",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BookManagement.Controllers.BookController",
-    "Method": "updateBook",
-    "RelativePath": "api/Book/update-book",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "updateBook",
-        "Type": "BookManagement.Entities.Book",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []

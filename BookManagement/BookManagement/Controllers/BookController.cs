@@ -1,64 +1,51 @@
-﻿using BookManagement.Domains;
-using BookManagement.Entities;
+﻿using BookManagement.DbContext.Entities;
+using BookManagement.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookManagement.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/books")]
     [ApiController]
     public class BookController : ControllerBase
     {
-        private readonly IBookRepository _bookRepository;
+        private readonly IBookService _bookService;
 
-        public BookController(IBookRepository bookRepository)
+        public BookController(IBookService bookService)
         {
-            _bookRepository = bookRepository;
+            _bookService = bookService;
         }
 
-        [HttpGet("get-all")]
-        public IActionResult getAllBook() 
+        [HttpGet]
+        public IActionResult searchBookByTitle([FromQuery] string? title)
         {
-            var allBook = _bookRepository.GetAllBook();
-
-            if (allBook == null) 
-            { 
-                return NotFound("Not found any book");
-            }
-
-            return Ok(allBook);
-        }
-
-        [HttpGet("search-book")]
-        public IActionResult searchBookByTitle([FromQuery] string title)
-        {
-            var foundBook = _bookRepository.searchBookByTitle(title);
+            var foundBook = _bookService.searchBookByTitle(title);
 
             return Ok(foundBook);
         }
 
-        [HttpPost("create-book")]
+        [HttpPost]
         public IActionResult createBook([FromBody] Book newBook)
         {
-            _bookRepository.createBook(newBook);
+            _bookService.createBook(newBook);
 
             return Ok("Added " + newBook.Title  + " list successfully");
         }
 
-        [HttpPut("update-book")]
+        [HttpPut]
         public IActionResult updateBook([FromQuery] int id, [FromBody] Book updateBook)
         {
 
-            _bookRepository.updateBookById(id, updateBook);
+            _bookService.updateBookById(id, updateBook);
 
             return Ok("Updated " + updateBook.Title + " successfully");
         }
 
-        [HttpDelete("delete-book")]
+        [HttpDelete]
         public IActionResult deleteBook([FromQuery] int id)
         {
-            _bookRepository.deleteBookById(id);
+            _bookService.deleteBookById(id);
 
             return Ok("Deleted successfully");
         }
